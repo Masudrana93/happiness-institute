@@ -22,10 +22,55 @@
 /* Navbar CSS End */
 
 /* Footer CSS Start */
+.footer-bg-color{
+    background-color: #121921;
+}
+.footer-address a{
+    color: gray;
+}
+.footer-address a:hover{
+    color: #AE3941;
+    transition: all 0.3s ease-in-out;
+}
+.footer-headings-color{
+    color: white;
+}
 .footer-company ul{
     list-style: none;
     padding-left: 0;
 }
 .footer-company ul li a{
     text-decoration: none;
+    color: gray;
+}
+.footer-company ul li a:hover{
+    
+    color: #AE3941;
+    transition: all 0.3s ease-in-out;
+}
+
+.footer-courses ul{
+    list-style: none;
+    padding-left: 0;
+}
+.footer-courses ul li a{
+    text-decoration: none;
+    color: gray;
+}
+.footer-courses ul li a:hover{
+    color: #AE3941;
+    transition: all 0.3s ease-in-out;
+}
+.footer-getin-touch ul{
+    list-style: none;
+    padding-left: 0;
+}
+.footer-getin-touch ul li a{
+    text-decoration: none;
+    color: gray;
+}
+.footer-getin-touch ul li a:hover{
+    color: #AE3941;
+    transition: all 0.3s ease-in-out;
+    
 }
