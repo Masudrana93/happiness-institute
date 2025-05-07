@@ -1,11 +1,31 @@
+/* header top CSS Start */
 .top-menu ul li a {
     text-decoration: none;
     color: white;
     padding:0 10px 0 10px;
-    
 }
-
+.top-menu ul{
+    list-style: none;
+}
 .header-top-bg-color{
     background-color: #AE3941;
-    
+}
+
+/* header top CSS End */
+
+/* Navbar CSS Start */
+.nav-ft-size{
+    font-size: 13px;
+    font-weight: 500; 
+}
+
+/* Navbar CSS End */
+
+/* Footer CSS Start */
+.footer-company ul{
+    list-style: none;
+    padding-left: 0;
+}
+.footer-company ul li a{
+    text-decoration: none;
 }
