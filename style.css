@@ -74,3 +74,24 @@
     transition: all 0.3s ease-in-out;
     
 }
+/* Footer CSS End  */
+
+/* Welcome section CSS Start  */
+
+.bg-photo{
+    background-image: url(images/studyaborad.png);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+/* .wel-bg-color{
+    background-color: #121921;
+    height: 400px;
+    background-size: cover;
+} */
+.welcome-height{
+    height: 400px;
+       
+}
