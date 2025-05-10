@@ -18,6 +18,10 @@
     font-size: 13px;
     font-weight: 500; 
 }
+.main-logo-size a img{
+    width: 70px;
+    height: auto;
+}
 
 /* Navbar CSS End */
 
@@ -78,7 +82,13 @@
 
 /* Welcome section CSS Start  */
 
-.bg-photo{
+.slider-height{
+    height: 450px;
+}
+
+
+
+/* .bg-photo{
     background-image: url(images/studyaborad.png);
     height: 400px;
     background-repeat: no-repeat;
@@ -86,12 +96,12 @@
     background-size: cover;
     
 }
-/* .wel-bg-color{
+.wel-bg-color{
     background-color: #121921;
     height: 400px;
     background-size: cover;
-} */
+}
 .welcome-height{
     height: 400px;
        
-}
+} */
