@@ -120,3 +120,16 @@ color: white;
 
 /*** our courses section css end  ***/
 
+/*** English Speaking section css start  ***/
+
+.card-title:hover{
+    color: #AE3941;
+    transition: all 0.3s ease-in-out;
+}
+
+/*** English Speaking section css end  ***/
+.location a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
