@@ -2,6 +2,7 @@
     background-color: #AE3941;
     color: white;
 }
+
 .icon-color{
     color: #AE3941;
 }
@@ -42,7 +43,7 @@
 }
 .footer-address a:hover{
     color: #AE3941;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease;
 }
 .footer-headings-color{
     color: white;
@@ -58,7 +59,7 @@
 .footer-company ul li a:hover{
     
     color: #AE3941;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease;
 }
 
 .footer-courses ul{
@@ -128,8 +129,7 @@ color: white;
 }
 
 /*** English Speaking section css end  ***/
-.location a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
+
+
+    
