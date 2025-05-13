@@ -126,4 +126,68 @@ var swiper = new Swiper(".mySwiper4", {
     
 });
 
+//swiper slider js for Study Abroad section
+
+var swiper = new Swiper(".mySwiper5", {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
+    navigation: {
+        nextEl: ".button-next5",
+        prevEl: ".button-prev5",
+      },
+
+
+       breakpoints: {
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 3,
+          spaceBetween: 30,
+        },
+        1024: {
+          slidesPerView: 4,
+          spaceBetween: 40,
+        },
+      },
+    
+});
+
+//swiper slider js for Study Abroad section
+
+var swiper = new Swiper(".mySwiper6", {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    autoplay: {
+        delay: 3500,
+        disableOnInteraction: false,
+    },
+    navigation: {
+        nextEl: ".button-next6",
+        prevEl: ".button-prev6",
+      },
+
+
+       breakpoints: {
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 3,
+          spaceBetween: 30,
+        },
+        1024: {
+          slidesPerView: 4,
+          spaceBetween: 40,
+        },
+      },
+    
+});
+
 
