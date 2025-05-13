@@ -27,8 +27,8 @@
     font-size: 13px;
     font-weight: 500; 
 }
-.main-logo-size a img{
-    width: 70px;
+.main-logo-size img{
+    width: 60px;
     height: auto;
 }
 
@@ -126,6 +126,10 @@ color: white;
 .card-title:hover{
     color: #AE3941;
     transition: all 0.3s ease-in-out;
+}
+.next-btn-hover button:hover{
+    border-color: #AE3941;
+    color: #AE3941;
 }
 
 /*** English Speaking section css end  ***/
