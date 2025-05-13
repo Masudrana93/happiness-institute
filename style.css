@@ -94,23 +94,6 @@
 /* Welcome section CSS Start  */
 
 
-/* .bg-photo{
-    background-image: url(images/studyaborad.png);
-    height: 400px;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    
-}
-.wel-bg-color{
-    background-color: #121921;
-    height: 400px;
-    background-size: cover;
-}
-.welcome-height{
-    height: 400px;
-       
-} */
 
 /*** our courses section css start  ***/
 .view-btn-hover a:hover{
@@ -135,5 +118,23 @@ color: white;
 /*** English Speaking section css end  ***/
 
 
-
+/* Why to learn new skills section css start  */
+.bg-photo{
+    background-image: url(images/welcome_1.png);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     
+}
+.wh-bg-color{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+ /* Why to learn new skills section css end  */   
