@@ -138,3 +138,24 @@ color: white;
 
 
  /* Why to learn new skills section css end  */   
+
+ /* Why choose us section css start  */
+.ch-bg-photo{
+    background-image: url(images/welcome_2.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+.ch-bg-color{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+ /* Why choose us section css end  */   
