@@ -190,4 +190,36 @@ var swiper = new Swiper(".mySwiper6", {
     
 });
 
+//swiper slider js for WHAT PEOPLE SAY section
+
+var swiper = new Swiper(".mySwiperWpsay", {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    autoplay: {
+        delay: 3500,
+        disableOnInteraction: false,
+    },
+    navigation: {
+        nextEl: ".button-nextWpsay",
+        prevEl: ".button-prevWpsay",
+      },
+
+
+       breakpoints: {
+        640: {
+          slidesPerView: 1,
+          spaceBetween: 10,
+        },
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        1024: {
+          slidesPerView: 2,
+          spaceBetween: 50,
+        },
+      },
+    
+});
+
 

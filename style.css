@@ -142,20 +142,19 @@ color: white;
  /* Why choose us section css start  */
 .ch-bg-photo{
     background-image: url(images/welcome_2.jpg);
-    height: 600px;
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
-    
+    background-position: center;
+    min-height: 700px;
+     
+
 }
 .ch-bg-color{
     background-color: rgba(0, 0, 0, 0.5);
-    height: 600px;
+    min-height: 700px;
     width: 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+   
 }
-
 
  /* Why choose us section css end  */   
