@@ -195,15 +195,14 @@ var swiper = new Swiper(".mySwiper6", {
 var swiper = new Swiper(".mySwiperWpsay", {
     slidesPerView: 1,
     spaceBetween: 10,
-    autoplay: {
-        delay: 3500,
-        disableOnInteraction: false,
-    },
+    // autoplay: {
+    //     delay: 3500,
+    //     disableOnInteraction: false,
+    // },
     navigation: {
         nextEl: ".button-nextWpsay",
         prevEl: ".button-prevWpsay",
       },
-
 
        breakpoints: {
         640: {
@@ -211,12 +210,12 @@ var swiper = new Swiper(".mySwiperWpsay", {
           spaceBetween: 10,
         },
         768: {
-          slidesPerView: 2,
-          spaceBetween: 20,
+          slidesPerView: 1,
+          spaceBetween: 10,
         },
         1024: {
           slidesPerView: 2,
-          spaceBetween: 50,
+          spaceBetween: 20,
         },
       },
     

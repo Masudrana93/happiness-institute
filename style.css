@@ -161,14 +161,24 @@ color: white;
    
 }
 
-/* Responsive override */
-@media (max-width: 768px) {
-    .ch-bg-photo,
-    .ch-bg-color {
-        min-height: 1300px;
-        
-        background-attachment: scroll; /* fix mobile behavior */
-    }
+
+
+ /* Why choose us section css end  */  
+
+/* what people say section css start */
+ .customCssForSwiperSlide {
+    width: 45.5% !important; 
+}
+/* what people say section css end */
+
+/* single page css start  */
+
+.q-links:hover a {
+    color: white !important;
+    background-color: #AE3941 !important;
+    transition: all 0.3 ease-out !important;
+    
 }
 
- /* Why choose us section css end  */   
+
+/* single page css end  */
