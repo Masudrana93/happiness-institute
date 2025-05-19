@@ -179,6 +179,14 @@ color: white;
     transition: all 0.3 ease-out !important;
     
 }
+.sticky-overview{
+    position: sticky;
+    top:110px;
+}
 
+.sticky-quick{
+    position: sticky;
+    top:110px;
+}
 
 /* single page css end  */
