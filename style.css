@@ -11,6 +11,16 @@
     color: #AE3941;
 }
 
+/* Navbar css start  */
+.nav-link:hover {
+    color: #AE3941 !important;
+}
+.dropdown-item:hover {
+    background-color: #AE3941 !important;
+    color: white !important;
+}
+/* Navbar css end  */
+
 /* header top CSS Start */
 .top-menu ul li a {
     text-decoration: none;
@@ -100,9 +110,16 @@
 
 
 /*** our courses section css start  ***/
-.view-btn-hover a:hover{
-background-color: #AE3941;
-color: white;
+.our-courses-view-btn-hover a{
+border: 2px solid #AE3941 ;
+
+
+}
+
+.our-courses-view-btn-hover a:hover{
+border: 2px solid #AE3941 ;
+color: #AE3941;
+transition: all 0.3s ease;
 
 }
 
@@ -140,6 +157,16 @@ color: white;
     background-size: cover;
 }
 
+.why-join-hover a{
+    border: 2px solid #AE3941 !important;
+
+}
+.why-join-hover a:hover{
+    border: 2px solid #AE3941 !important;
+    color: white !important;
+    
+}
+
 
  /* Why to learn new skills section css end  */   
 
@@ -149,7 +176,7 @@ color: white;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center;
+    /* background-position: center; */
     min-height: 700px;
      
 
@@ -219,6 +246,8 @@ color: white;
 
  /* Video gallery section css end  */ 
 
+ /* contact us CSS start  */
+
  .social-logo ul li {
     width: 30px;
     height: 30px;
@@ -232,6 +261,7 @@ color: white;
     background-color: #AE3941;
     border: 1px solid #AE3941;
     transition: all 0.3s ease;
-    
 }
+
+/* contact us CSS end */
 
