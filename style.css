@@ -218,3 +218,20 @@ color: white;
 
 
  /* Video gallery section css end  */ 
+
+ .social-logo ul li {
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-logo ul li:hover {
+    background-color: #AE3941;
+    border: 1px solid #AE3941;
+    transition: all 0.3s ease;
+    
+}
+
