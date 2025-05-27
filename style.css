@@ -19,6 +19,11 @@
     background-color: #AE3941 !important;
     color: white !important;
 }
+
+.box-shadow-delete:focus{
+   
+    box-shadow: none;
+}
 /* Navbar css end  */
 
 /* header top CSS Start */
@@ -95,10 +100,11 @@
 .footer-getin-touch ul li a{
     text-decoration: none;
     color: gray;
+    transition: all 0.3s ease-in-out;
 }
 .footer-getin-touch ul li a:hover{
     color: #AE3941;
-    transition: all 0.3s ease-in-out;
+    
     
 }
 /* Footer CSS End  */
@@ -112,14 +118,14 @@
 /*** our courses section css start  ***/
 .our-courses-view-btn-hover a{
 border: 2px solid #AE3941 ;
-
+transition: all 0.3s ease;
 
 }
 
 .our-courses-view-btn-hover a:hover{
 border: 2px solid #AE3941 ;
 color: #AE3941;
-transition: all 0.3s ease;
+
 
 }
 
@@ -159,6 +165,7 @@ transition: all 0.3s ease;
 
 .why-join-hover a{
     border: 2px solid #AE3941 !important;
+    transition: all 0.3s ease !important;
 
 }
 .why-join-hover a:hover{
@@ -248,20 +255,41 @@ transition: all 0.3s ease;
 
  /* contact us CSS start  */
 
- .social-logo ul li {
-    width: 30px;
-    height: 30px;
+ .social-logo ul li{
+    list-style: none;
+ }
+
+  .social-logo ul li a {
+    width: 40px;
+    height: 40px;
     border: 1px solid white;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all 0.3s ease;
 }
-.social-logo ul li:hover {
+.social-logo ul li a:hover {
     background-color: #AE3941;
     border: 1px solid #AE3941;
-    transition: all 0.3s ease;
+   
 }
 
 /* contact us CSS end */
 
+.social-logo-float ul li{
+    list-style: none;
+}
+.social-logo-float ul li a{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 2px white;
+    transition: all 0.3s ease;
+}
+.social-logo-float ul li a:hover{
+    color: black !important;
+}
